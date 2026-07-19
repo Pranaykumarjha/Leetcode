@@ -21,11 +21,6 @@ class Solution {
         while (start <= end) 
         {
             int mid = start + (end - start) / 2;
-
-            // if (arr[mid] == target) {
-            //     return mid; // found
-            // }
-
             
                 // ascending order logic
                 if (target < arr[mid]) {
